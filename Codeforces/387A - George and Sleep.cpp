@@ -1,4 +1,5 @@
 #include <cstdio>
+
 int main()
 {
     int h[2], m[2];
