@@ -11,7 +11,6 @@ int main()
        long long int n,k;
        cin>>n>>k;
         long long int i,j,c=0;
- 
         long long int arr[n];
         for(i=0;i<n;i++)
         cin>>arr[i];
