@@ -60,7 +60,7 @@ int pref(char ch)
             
             else
             {
-                while(!st.empty() && pref(h) <= pref(st.top()))
+                while(!st.empty() && pref(h) < pref(st.top()))
                 {
                     char t=st.top();
                     st.pop();
