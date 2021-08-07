@@ -6,6 +6,7 @@ vector<vector<int>> merge(vector<vector<int>>& v)
         
         int i,j;
         stack<pair<int,int>> s;
+    
         s.push(make_pair(v[0][0],v[0][1]));
         
         for(i=1;i<v.size();i++)
